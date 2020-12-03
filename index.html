@@ -10,11 +10,17 @@
 </head>
 <body>
   <!-- code a Hero / Banner section -->
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-text" href="#">Sticky top</a>
+    Navbar text with an inline element
+  </span>
+</nav>
+
   <div class="banner">
     <div class="banner-container">
       <h1>SAVE THE DATE</h1>
       <p>Nicole & Dirk</p>
-      <a href="#" class="btn-banner">Wir freuen uns schon sehr!</a>
+      <a href="#" class="btn-blue">Wir freuen uns schon sehr!</a>
     </div>
   </div>
 
@@ -37,10 +43,37 @@
   <br>
   <br>
   </div>
+
+<form class="form-inline">
+  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Preference</label>
+  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    <option selected>Choose...</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+
+  <div class="custom-control custom-checkbox my-1 mr-sm-2">
+    <input type="checkbox" class="custom-control-input" id="customControlInline">
+    <label class="custom-control-label" for="customControlInline">Remember my preference</label>
+  </div>
+
+  <button type="submit" class="btn btn-primary my-1">Submit</button>
+</form>
+
+<select class="custom-select">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
   <!-- code a footer -->
   <div class="footer">
       <h3>Weitere Informationen folgen</h3>
         <a href="#"><i class="fab fa-wedding"></i></a>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+        </svg>
   </div>
 
 </body>
