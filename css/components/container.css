@@ -80,9 +80,9 @@
 }
 
 .overlay {
-  opacity: 0.5;
-  width: 80px;
+  opacity: 0.8;
+  width: 200px;
   height: 250px;
   padding: 20px;
-  background-color: white;
+  background-color: rgb(230,230,230);
 }
