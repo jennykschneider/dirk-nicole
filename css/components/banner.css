@@ -6,7 +6,7 @@
   height: 120px;
   text-align: center;
   padding: 200px 0;
-  color: #c05746;
+  color: #c57b57;
 }
 
 .banner-container{
@@ -27,5 +27,5 @@
 }
 
 .btn-banner:hover {
- color: #c05746;
+ color: #c57b57;
 }
