@@ -1,17 +1,22 @@
 .banner{
-  background-image: url(../../images/Schloss-Hugenpoet.jpeg);
+  background-image: url(../../images/couple.jpeg);
   background-size: cover;
   background-position: center;
   width:100%;
   height: 120px;
   text-align: center;
   padding: 200px 0;
-  color: #c57b57;
 }
 
 .banner-container{
   width: 900px;
   margin: auto;
+}
+
+.banner h1 { 
+  font-site: 40px; 
+  font-weight: bold; 
+  color: #c57b57;
 }
 
 .btn-banner{
@@ -29,3 +34,4 @@
 .btn-banner:hover {
  color: #c57b57;
 }
+

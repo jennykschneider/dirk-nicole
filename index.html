@@ -1,10 +1,10 @@
 <!-- To Do:
-1. Responsiveness,
+1. Responsiveness, check?
 2. Opacity Header,
 3. Cards overlapping und maybe dann banner größer und cards im banner?,
 4. Text
 5. RVSP mit JS,
-6. Google Maps API (fancy wie bei Le Wagon in schwarz und weiß?),
+6. No Location yet
 7. Anderer Aufbau und Text (hard facts etc.)
  -->
 
@@ -17,77 +17,77 @@
   <!-- We need this line below for responsiveness! -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
-  <!-- code a Hero / Banner section -->
-<nav class="navbar navbar-dark bg-dark">
-  <span class="navbar-text" href="#">      Save the date: </a>
-    Nicole & Dirk heiraten!
-  </span>
-</nav>
+  <div class="responsiveness">
+    <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-text" href="#">      Save the date: </a>
+        Nicole & Dirk heiraten!
+      </span>
+    </nav>
 
-  <div class="banner">
-    <div class="banner-container">
-      <div class="overlay">
-        <!-- please fix! -->
-          <h1>SAVE THE DATE</h1>
-          <p>Nicole & Dirk</p>
-        <a href="#" class="btn-blue">Wir freuen uns schon sehr!</a>
+      <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/couple.jpeg);"> >
+        <div class="banner-container">
+          <div class="overlay">
+            <!-- please fix! -->
+              <h1>SAVE THE DATE</h1>
+              <p>Nicole & Dirk</p>
+            <a href="#" class="btn-green">RSVP</a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <br>
-  <br>
-  <!-- code a "How it works" section -->
-  <div class="container">
-    <div class="cards">
-      <div class="card-one">
-        <img src="images/couple-past.jpeg" alt="Picture past">
-        <h3>Beginn der Veranstaltung</h3>
-        <p>23.05.2020 - 14:00 Uhr</p>
+      <br>
+      <br>
+      <div class="container">
+        <div class="cards">
+          <div class="card-one">
+            <img src="images/couple-past.jpeg" alt="Picture past">
+            <h3>Beginn der Veranstaltung</h3>
+            <p>23.05.2020 - 14:00 Uhr</p>
+          </div>
+          <div class="card-two">
+            <img src="images/couple.jpeg" alt="Picture present">
+            <h3>Ende der Veranstaltung</h3>
+            <p>24.05.2020 - 12:00 Uhr</p>
+          </div>
+        </div>
+      <br>
+      <br>
       </div>
-      <div class="card-two">
-        <img src="images/couple.jpeg" alt="Picture present">
-        <h3>Ende der Veranstaltung</h3>
-        <p>24.05.2020 - 12:00 Uhr</p>
+
+    <form class="form-inline">
+      <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Kulinarische Präferenzen</label>
+      <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+        <option selected>Wähle aus</option>
+        <option value="1">Alles egal, hauptsache lecker!</option>
+        <option value="2">Vegetarische Option</option>
+        <option value="3">Lieber Fisch als Fleisch</option>
+      </select>
+      <button type="submit" class="btn btn-info my-1">Abschicken</button>
+    </form>
+
+      <div class="footer">
+          <h3>Weitere Informationen folgen</h3>
+            <a href="#"><i class="fab fa-wedding"></i></a>
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+            </svg>
       </div>
-    </div>
-  <br>
-  <br>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </div>
-
-<form class="form-inline">
-  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Preference</label>
-  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-    <option selected>Choose...</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
-
-  <div class="custom-control custom-checkbox my-1 mr-sm-2">
-    <input type="checkbox" class="custom-control-input" id="customControlInline">
-    <label class="custom-control-label" for="customControlInline">Remember my preference</label>
-  </div>
-
-  <button type="submit" class="btn btn-primary my-1">Submit</button>
-</form>
-
-<select class="custom-select">
-  <option selected>Kulinarische Präferenzen</option>
-  <option value="1">Alles egal, hauptsache lecker!</option>
-  <option value="2">Vegetarische Option</option>
-  <option value="3">Lieber Fisch als Fleisch</option>
-</select>
-  <!-- code a footer -->
-  <div class="footer">
-      <h3>Weitere Informationen folgen</h3>
-        <a href="#"><i class="fab fa-wedding"></i></a>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
-        </svg>
-  </div>
-
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
