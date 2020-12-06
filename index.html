@@ -52,6 +52,43 @@
       <br>
       </div>
 
+<form id="rsvp-form" class="rsvp-form" action="" method="POST">
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="form-input-group">
+                <i class="fa fa-envelope"></i>
+                <input type="email" name="email" class="" placeholder="Your email" required>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="form-input-group">
+                <i class="fa fa-user"></i>
+                <input name="name" class="" placeholder="Your name" required>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="form-input-group">
+                <i class="fa fa-users"></i>
+                <input type="number" name="extras" class="" min="0" max="4" placeholder="Husband/Wife or kids" required>
+            </div>
+          </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="form-input-group">
+                <i class="fa fa-key"></i>
+                <input type="number" name="invite_code" id="invite_code" class="" min="0" placeholder="Invite code" required>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12" id="alert-wrapper"></div>
+    </div>
+    <button class="btn-fill rsvp-btn">
+        Yes, that's me!
+    </button>
+</form>
+
     <div class="container-preferences">
       <form class="form-inline">
         <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Kulinarische Präferenzen</label>
@@ -77,6 +114,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </div>
 </body>
+  <form class="gform" method="POST" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbyLTmG5QvE4ec9XzMe1Lcqw3FzF37JTOhmjzt0r70LKm30SFgCq/exec">
+  </form>
 </html>
 
 
