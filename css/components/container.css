@@ -10,7 +10,7 @@
 }
 
 .card-one{
-  width: 600px;
+  width: 400px;
   border-radius: 3px;
   box-shadow: 0 0 5px rgb(230,230,230);
   text-align: center;
@@ -35,7 +35,7 @@
   box-shadow: 0 0 5px rgb(230,230,230);
   text-align: center;
   padding: 10px;
-  border: 3px dotted rgb(230,230,230);
+  border: 3px solid rgb(230,230,230);
 }
 
 .card-two img{
