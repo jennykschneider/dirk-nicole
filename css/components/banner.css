@@ -2,8 +2,8 @@
   background-image: url(../../images/couple.jpeg);
   background-size: cover;
   background-position: center;
-  width:100%;
-  height: 120px;
+  width:80%;
+  height: 200px;
   text-align: center;
   padding: 200px 0;
 }
@@ -19,19 +19,18 @@
   color: #c57b57;
 }
 
-.btn-banner{
+/*.btn-banner{
   background-color: #white;
   padding: 8px 20px;
   border:3px dotted black;
   color: grey;
   border-radius: 15px;
   display: inline-block;
-  /*stay inline but behave like a block, respect padding and margin on all sides*/
   margin: 30px;
   transition: 0.7s;
 }
 
 .btn-banner:hover {
  color: #c57b57;
-}
+}*/
 

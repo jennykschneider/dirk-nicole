@@ -1,6 +1,6 @@
 .footer{
   text-align: center;
-  color: #c57b57;;
+  color: #6C534E;
   display:flex;
   justify-content: center;
   margin: 0 auto;
@@ -9,5 +9,5 @@
 }
 
 .fab {
-  color: #c57b57;
+  color: #6C534E;
 }

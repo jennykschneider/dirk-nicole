@@ -26,7 +26,20 @@
   object-position: center;
 }
 
-.card-two{
+.overlay {
+  opacity: 0.8;
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+  background-color: rgb(230,230,230);
+  align-content: center;
+}
+
+.container-preferences {
+  align-content: center;
+}
+
+/*.card-two{
   width: 400px;
   border-radius: 3px;
   box-shadow: 0 0 5px rgb(230,230,230);
@@ -56,18 +69,6 @@
   height: 200px;
   object-fit: cover;
   object-position: center;
-}
+}*/
 
-.overlay {
-  opacity: 0.8;
-  width: 200px;
-  height: 250px;
-  padding: 20px;
-  background-color: rgb(230,230,230);
-}
-
-.container-preferences {
-  object-fit: cover;
-  object-position: center;
-}
 
