@@ -58,11 +58,6 @@
   object-position: center;
 }
 
-.container {
-  width:900px;
-  margin:0 auto;
-}
-
 .overlay {
   opacity: 0.8;
   width: 200px;
@@ -70,3 +65,9 @@
   padding: 20px;
   background-color: rgb(230,230,230);
 }
+
+.container-preferences {
+  object-fit: cover;
+  object-position: center;
+}
+

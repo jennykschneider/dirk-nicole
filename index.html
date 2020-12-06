@@ -12,6 +12,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hochzeit Nicole & Dirk</title>
   <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
   <!-- We need this line below for responsiveness! -->
@@ -57,16 +58,18 @@
       <br>
       </div>
 
-    <form class="form-inline">
-      <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Kulinarische Präferenzen</label>
-      <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-        <option selected>Wähle aus</option>
-        <option value="1">Alles egal, hauptsache lecker!</option>
-        <option value="2">Vegetarische Option</option>
-        <option value="3">Lieber Fisch als Fleisch</option>
-      </select>
-      <button type="submit" class="btn btn-info my-1">Abschicken</button>
-    </form>
+    <div class="container-preferences">
+      <form class="form-inline">
+        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Kulinarische Präferenzen</label>
+        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+          <option selected>Wähle aus</option>
+          <option value="1">Alles egal, hauptsache lecker!</option>
+          <option value="2">Vegetarische Option</option>
+          <option value="3">Lieber Fisch als Fleisch</option>
+        </select>
+        <button type="submit" class="btn btn-info my-1">Abschicken</button>
+      </form>
+    </div>
 
       <div class="footer">
           <h3>Weitere Informationen folgen</h3>
@@ -81,7 +84,6 @@
   </div>
 </body>
 </html>
-
 
 
 
