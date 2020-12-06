@@ -2,7 +2,7 @@
   background-image: url(../../images/couple.jpeg);
   background-size: cover;
   background-position: center;
-  width:80%;
+  width:100%;
   height: 200px;
   text-align: center;
   padding: 200px 0;
@@ -16,7 +16,7 @@
 .banner h1 { 
   font-site: 40px; 
   font-weight: bold; 
-  color: #c57b57;
+  color: #6C534E;
 }
 
 /*.btn-banner{
