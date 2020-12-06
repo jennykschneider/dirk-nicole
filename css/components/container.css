@@ -1,7 +1,6 @@
 .container{
   width: 900px;
   margin: auto;
-  color:grey;
 }
 
 .cards{
@@ -26,6 +25,10 @@
   object-position: center;
 }
 
+.card-one h3{
+  margin-top: 20px;
+}
+
 .overlay {
   opacity: 0.8;
   width: 400px;
@@ -37,8 +40,8 @@
 
 .container-preferences {
   display: flex;
-  align-content: center;
+  text-align: center;
+  justify-content: center;
   margin: auto;
 }
-
 
