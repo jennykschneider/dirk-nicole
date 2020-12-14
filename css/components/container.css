@@ -64,6 +64,13 @@
   text-align: center;
   justify-content: space-between;
   align-items: center;
-  margin: 40px 40px 80px 80px;
+  margin: 20px 40px 200px 200px;
 }
 
+.container-preferences {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 40px 200px 200px;
+}
