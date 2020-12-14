@@ -1,11 +1,11 @@
-.btn-green {
+.btn-red {
   background-color: #E56358;
   padding: 8px 20px;
   color: white;
   border-radius: 15px;
   display: inline-block;
   /*stay inline but behave like a block, respect padding and margin on all sides*/
-  margin: 30px;
+  margin: 30px 60px;
   transition: 0.7s;
 }
 
