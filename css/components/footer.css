@@ -1,13 +1,14 @@
 .footer{
   text-align: center;
-  color: #6C534E;
+  background-color: #102452;
+  color: #FFFFFF;
   display:flex;
   justify-content: center;
   margin: 0 auto;
   padding: 50px;
-  box-shadow: 0 0 2px #6C534E;
+  box-shadow: 0 0 2px #102452;
 }
 
 .fab {
-  color: #6C534E;
+  color: #FFFFFF;
 }
