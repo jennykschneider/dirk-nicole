@@ -1,6 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
-
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@300;400&display=swap');
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
@@ -12,20 +11,20 @@
 /* Utilities */
 body {
   margin: 0;
-  font-family: 'Raleway',
+  font-family: 'Montserrat',
 }
 
 h1, h2 {
-  font-family: 'Raleway',
+  font-family: 'Abel',
 }
 
 h3, h4 {
-  font-family: 'Roboto Mono',
+  font-family: 'Montserrat',
 }
 
 a {
   text-decoration: none;
-  color: #102452;
+  color: black;
 }
 
 /* Custom design below! */
