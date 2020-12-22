@@ -108,11 +108,10 @@ a {
   padding:14px 24px;
   }
   .banner-bg {
-    background-image: url(../images/Schloss-Hugenpoet.jpeg);
+    background-image: url(../images/couple-present.jpeg);
     background-repeat: no-repeat;
     background-position: right;
     background-size:contain;
-    width: 400px;
     }
   .dd{
   background-color:#fff;
