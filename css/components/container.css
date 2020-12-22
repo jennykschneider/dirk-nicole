@@ -1,7 +1,10 @@
 .container{
   width: 900px;
   margin: auto;
+  height: 100px;
 }
+
+
 /*
 .cards{
   display:flex;
