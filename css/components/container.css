@@ -18,6 +18,13 @@
   text-align: center;
 }
 
+.flexbox-banner{
+  justify-content: center;
+  display: flex;
+}
+
+
+
 /*
 .card-one{
   width: 400px;
