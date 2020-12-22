@@ -1,12 +1,12 @@
 .footer{
   text-align: center;
-  background-color: #102452;
+  background-color: #ADC698;
   color: #FFFFFF;
   display:flex;
   justify-content: center;
   margin: 0 auto;
   padding: 40px;
-  box-shadow: 0 0 2px #102452;
+  box-shadow: 0 0 2px #ADC698;
 }
 
 .fab {

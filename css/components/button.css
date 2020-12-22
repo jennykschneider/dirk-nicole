@@ -1,5 +1,5 @@
-.btn-red {
-  background-color: #E56358;
+.btn-green {
+  background-color: #ADC698;
   padding: 8px 20px;
   color: white;
   border-radius: 15px;
@@ -9,7 +9,7 @@
   transition: 0.7s;
 }
 
-.btn-red:hover {
+.btn-green:hover {
  opacity: 0.5;
  color: white;
 }
