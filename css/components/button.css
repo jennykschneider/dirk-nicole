@@ -1,10 +1,10 @@
-.btn-green {
+/*.btn-green {
   background-color: #ADC698;
   padding: 8px 20px;
   color: white;
   border-radius: 15px;
   display: inline-block;
-  /*stay inline but behave like a block, respect padding and margin on all sides*/
+  stay inline but behave like a block, respect padding and margin on all sides
   margin: 30px;
   transition: 0.7s;
 }
@@ -12,4 +12,4 @@
 .btn-green:hover {
  opacity: 0.5;
  color: white;
-}
+}*/
