@@ -1,5 +1,6 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@300&display=swap');
+
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
@@ -24,7 +25,6 @@ h3, h4 {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 /* Custom design below! */

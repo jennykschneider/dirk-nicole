@@ -4,9 +4,8 @@
   height: 100px;
   text-align: center;
   padding: 20px 20px 20px 20px;
+  color: #CCC283;
 }
-
-
 
 .cards{
   display:flex;
@@ -16,6 +15,7 @@
 
 .card-info{
   width: 200px;
+  margin: 20px 20px 20px 20px;
   text-align: center;
 }
 
