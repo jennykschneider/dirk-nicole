@@ -112,6 +112,7 @@ a {
     background-repeat: no-repeat;
     background-position: right;
     background-size:contain;
+    width: 400px;
     }
   .dd{
   background-color:#fff;
