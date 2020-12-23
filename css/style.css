@@ -103,6 +103,7 @@ a {
   .btn-primary:hover{
   background-color:#ADC698;
   border-color:#73777a;
+  text-decoration: none;
   }
   .btn-lg{
   padding:14px 24px;
