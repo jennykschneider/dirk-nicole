@@ -173,9 +173,9 @@ a {
    background-position:center right;
     }
   .banner-bg h2{
-  color:#ADC698;
+  color:#fff;
   }
   .banner-bg p{
-  color:#73777a !important;
+  color:rgba(255,255,255,0.8) !important;
   }
    }
