@@ -89,6 +89,12 @@ a {
   color:#73777a;
   text-decoration:none;
   }
+
+  .bg-primary{
+  background-color:#ADC698;
+  border-color:#ADC698;
+  }
+
   .btn{
   font-size:13px;
   font-weight:500;
